@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.ahkconstruction.co.uk/sitemap.xml
