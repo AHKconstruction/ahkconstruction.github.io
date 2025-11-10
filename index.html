@@ -15,6 +15,10 @@
   <meta name="google-site-verification" content="4dz_mkUT2HeKJi7WM42yZOe-Ovx0JpnDxILr6JcsRUQ" />
   <!-- Link to external stylesheet -->
   <link rel="stylesheet" href="styles.css" />
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!--Structured data for SEO-->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -209,6 +213,129 @@
 
     </section>
 
+    <!-- PROJECTS SLIDER SECTION -->
+<section id="project-slider" class="section project-slider">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Work Gallery</h2>
+      <p>Swipe or click through our highlighted builds and designs.</p>
+    </div>
+
+    <!-- Swiper Slider -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/image1.jpg" alt="Image 1">
+          <p class="caption">Image 1</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image2.jpg" alt="Image 2">
+          <p class="caption">Image 2</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image3.jpg" alt="Image 3">
+          <p class="caption">Image 3</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image4.jpg" alt="Image 4 ">
+          <p class="caption">Image 4</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image5.jpg" alt="Image 5">
+          <p class="caption">Image 5</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image6.jpg" alt="Image 6">
+          <p class="caption">Image 6</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image7.jpg" alt="Image 7">
+          <p class="caption">Image 7</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image8.jpg" alt="Image 8">
+          <p class="caption">Image 8</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image9.jpg" alt="Image 9">
+          <p class="caption">Image 9</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image10.jpg" alt="Image 10">
+          <p class="caption">Image 10</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image11.jpg" alt="Image 11">
+          <p class="caption">Image 11</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image12.jpg" alt="Image 12">
+          <p class="caption">Image 12</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/image13.jpg" alt="Image 13">
+          <p class="caption">Image 13</p>
+        </div>
+      </div>
+
+      <!-- Pagination dots -->
+      <div class="swiper-pagination"></div>
+
+      <!-- Navigation arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</section>
+
+<section id="featured" class="section featured-gallery">
+  <div class="container">
+    <h2>Featured Projects</h2>
+    <div class="featured-grid">
+
+      <!-- Project 1 -->
+      <div class="featured-item" data-gallery="project1">
+        <img src="images/project1-main.jpg" alt="Images 1">
+        <figcaption>Modern Apartment Build</figcaption>
+      </div>
+
+      <!-- Hidden gallery images for project 1 -->
+      <div class="gallery-images" data-gallery="project1" style="display:none;">
+        <img src="images/image15.jpg" alt="Image 15">
+        <img src="images/image16.jpg" alt="Image 16">
+        <img src="images/image17.jpg" alt="Image 17">
+      </div>
+
+      <!-- Project 2 -->
+      <div class="featured-item" data-gallery="project2">
+        <img src="images/project2-main.jpg" alt="Images 2">
+        <figcaption>Office Renovation</figcaption>
+      </div>
+
+      <div class="gallery-images" data-gallery="project2" style="display:none;">
+        <img src="images/image26.jpg" alt="Image 26">
+        <img src="images/image27.jpg" alt="Image 27">
+        <img src="images/image28.jpg" alt="Image 28">
+      </div>
+
+      <!-- Project 3 -->
+      <div class="featured-item" data-gallery="project3">
+        <img src="images/project3-main.jpg" alt="Images 3">
+        <figcaption>Home Extension</figcaption>
+      </div>
+
+      <div class="gallery-images" data-gallery="project3" style="display:none;">
+        <img src="images/image22.jpg" alt="Image 22">
+        <img src="images/image24.jpg" alt="Image 24">
+        <img src="images/image25.jpg" alt="Image 25">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
     <!-- UPCOMING PROJECT -->
 <section id="upcoming" class="section projects">
   <div class="container">
@@ -344,10 +471,10 @@
   <img class="lightbox-img" src="" alt="Expanded view">
   <div class="lightbox-caption"></div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- Include JavaScript file -->
 <script src="script.js"></script>
 <!-- Minimal script to auto-update year intentionally omitted (no JS per request) -->
 </body>
 </html>
-
