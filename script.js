@@ -102,9 +102,6 @@ document.querySelectorAll(".featured-gallery .featured-item").forEach(item => {
   });
 });
 
-
-
-
 closeBtn.addEventListener("click", () => {
   lightbox.style.display = "none";
 });
